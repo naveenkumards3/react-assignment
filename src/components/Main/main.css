@@ -1,0 +1,326 @@
+.mainContainer {
+  display: flex;
+  box-sizing: border-box;
+}
+/* profile section */
+.profileCardContainer {
+  width: 344px;
+  height: 360px;
+  border: 1px solid #00000018;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.profileContainer {
+  margin: 10px 5px 10px 10px;
+}
+.badgeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.officerInfoContainer {
+  margin-top: 18px;
+}
+.officerDesignation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+
+.officerName {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 10px;
+}
+.officerID {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  margin: 10px 0px;
+}
+.officerInfoContainer {
+  border-bottom: 1px solid #00000018;
+}
+.lastActivity {
+  font-family: Red Hat Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.aboutActivity {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #5d6f88;
+
+  letter-spacing: 0.2px;
+}
+.highlight {
+  font-size: 16px;
+  color: #5d6f88;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+/* ship details  */
+.shipInfoContainer {
+  width: 344px;
+  height: 276px;
+  border: 1px solid #00000018;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+.shipNameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shipName {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.statementOfFact {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.currentStatus {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.741);
+}
+.cargoFirstLift {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.556);
+  border-bottom: 1px solid #00000018;
+  padding-bottom: 20px;
+}
+.shipNextTripDetail {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nextPort {
+  font-size: 12px;
+  font-weight: 500;
+}
+.nextTripTime {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+/* notificatin section */
+.notificationContainer {
+  width: 429px;
+  height: 649px;
+  border: 1px solid #00000018;
+  border-radius: 12px;
+  background-color: #ebf4ff;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px 5px;
+}
+.dailyStreamContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dailyStreamText {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #133774;
+}
+.lastUpdatedText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #5a5b6a;
+}
+.importantNoticeCard {
+  width: 386px;
+  height: 152px;
+  top: 90px;
+  left: 22px;
+  border: 1px solid #00000018;
+  border-radius: 12px;
+  background: #fffaec;
+  padding: 25px;
+  margin: 15px 10px 5px 0px;
+  box-sizing: border-box;
+}
+.importantNoticeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imprtNoticeText {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #e95454;
+}
+.noticeInfo {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 10px 0px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.views {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-between;
+}
+.notificationCard {
+  width: 386px;
+  height: 152px;
+  top: 254px;
+  left: 22px;
+  padding: 27px 21px 20px 30px;
+  border: 1px solid #00000018;
+  border-radius: 12px;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.notificationInfo {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #213838;
+  opacity: 0.8px;
+}
+.noticeOfficerName {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  opacity: 0.8px;
+}
+
+.notificationTime {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #5a5b6a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* to-do section */
+.to-do-container {
+  width: 344px;
+  height: 649px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 10px 5px;
+  border: 1px solid #00000018;
+  border-radius: 12px;
+}
+.dayContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myDayText {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.dateText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #5a5b6a;
+}
+.taskCard {
+  width: 296px;
+  height: 65px;
+  margin: 10px 0px;
+  border: 1px solid #00000018;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+.more {
+  margin: 5px 10px;
+  float: right;
+}
+.checkedContainer {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+
+  margin-left: 20px;
+  gap: 10px;
+}
+.donedTask {
+  font-weight: 600;
+  text-decoration: line-through;
+}
+.assignedByText {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.red {
+  border: 1px solid #e95454;
+}
+.covidText {
+  color: #e95454;
+  font-weight: 600;
+}
+.todoTask {
+  font-weight: 600;
+}
+.dueText {
+  color: #e95454;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  width: 301px;
+  height: 44px;
+  top: 134px;
+  left: 271px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 120px;
+  border: 0.5px solid #787885;
+}
+.inputContainer input {
+  border: none;
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.16px;
+  letter-spacing: 0.018em;
+}

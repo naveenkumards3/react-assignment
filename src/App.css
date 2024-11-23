@@ -1,0 +1,6 @@
+.mainContainer {
+  display: flex;
+  height: 764px;
+  width: 1280px;
+  box-sizing: border-box;
+}
